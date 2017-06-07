@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhaoliufeng.digitaltube.MainActivity">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="230dp">
+            <LinearLayout
+                android:gravity="right"
+                android:id="@+id/SegmentCode_F_View"
+                android:orientation="horizontal"
+                android:layout_width="30dp"
+                android:layout_height="110dp">
+                <TextView
+                    android:text="F"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/SegmentCode_F"
+                    android:background="@color/colorGray"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="right"
+                android:id="@+id/SegmentCode_E_View"
+                android:orientation="horizontal"
+                android:layout_width="30dp"
+                android:layout_height="110dp">
+                <TextView
+                    android:text="E"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/SegmentCode_E"
+                    android:background="@color/colorGray"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:orientation="vertical"
+            android:layout_height="260dp">
+            <LinearLayout
+                android:gravity="bottom"
+                android:id="@+id/SegmentCode_A_View"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:text="A"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_A"
+                    android:background="@color/colorGray"
+                    android:layout_width="100dp"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="bottom"
+                android:id="@+id/SegmentCode_G_View"
+                android:orientation="vertical"
+                android:layout_marginTop="80dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:text="G"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_G"
+                    android:background="@color/colorGray"
+                    android:layout_width="100dp"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="bottom"
+                android:id="@+id/SegmentCode_D_View"
+                android:orientation="vertical"
+                android:layout_marginTop="80dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:text="D"
+                    android:textSize="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_D"
+                    android:background="@color/colorGray"
+                    android:layout_width="100dp"
+                    android:layout_height="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="left"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="250dp">
+            <LinearLayout
+                android:id="@+id/SegmentCode_B_View"
+                android:layout_width="30dp"
+                android:layout_height="110dp">
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_B"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorGray"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:text="B"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/SegmentCode_C_View"
+                android:layout_width="30dp"
+                android:layout_height="110dp">
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_C"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorGray"
+                    android:layout_width="10dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:text="C"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/SegmentCode_DP_View"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="20dp">
+                <com.zhaoliufeng.digitaltube.CodeView
+                    android:id="@+id/SegmentCode_DP"
+                    android:layout_marginLeft="10dp"
+                    android:background="@color/colorGray"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:text="DP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/YangRbtn"
+                android:text="共阳"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/YinRbtn"
+                android:text="共阴"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center_vertical"
+                android:text="常用字符"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <NumberPicker
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:id="@+id/numberPicker"
+                android:layout_width="40dp"
+                android:layout_height="80dp">
+            </NumberPicker>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="输出结果"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tv_Hex"
+                android:text="0xc0"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorGray"
+                android:gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:text="1100 0000"
+                android:id="@+id/tv_Binary"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/colorGray"
+                android:gravity="center_vertical"
+                android:layout_width="80dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center_vertical"
+                android:text="排列顺序"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+            <RadioGroup
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/A_DPRbtn"
+                    android:text="A-DP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/DP_ARbtn"
+                    android:text="DP-A"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="常用输出"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_marginRight="10dp"
+                android:text="拷贝"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <View
+                android:background="@color/colorGray"
+                android:layout_width="5dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:id="@+id/tv_Resualt_Out"
+                android:text="共阳0-F dp-a 0xc0,0xf9,0xa4,0xb0,0x99,0x92,0x82,0xf8,0x80,0x90,0x88,0x83,0xc6,0xa1,0x86,0x8e"
+                android:background="@color/colorGray"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="250dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
