@@ -321,8 +321,8 @@
                 android:id="@+id/btn_copy"
                 android:layout_marginRight="10dp"
                 android:text="拷贝"
-                android:layout_width="50dp"
-                android:layout_height="50dp" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
             <View
                 android:background="@color/colorGray"
                 android:layout_width="5dp"
